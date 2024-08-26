@@ -12,6 +12,12 @@ const createKey = () =>{
     let newItem = document.getElementById("item").value;
     let newPrice = document.getElementById("price").value;
 
+    const input1 = document.getElementById("object")
+    const input2 = document.getElementById("item")
+    const input3 = document.getElementById("price")
+    input1.value =""
+    input2.value =""
+    input3.value =""
 
     storage[newObject] = {item: newItem, price: newPrice};
     
