@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+html {
+    font-family: sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 1px #40352C;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: #40352C;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+  }
+  
+  caption {
+    padding: 10px;
+  }
+
+
+body{
+  background-color: #F2D7B6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#form-box {
+  margin-top: 100px;
+  width: 85vw;
+  max-width: 500px;
+  height: 450px;
+  border-radius: 24px;
+  display: flex;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: flex-start;
+   background-color: #40352C;
+   box-shadow: inset;
+}
+
+form{
+ width: 250px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+}
+
+button:hover{
+  transition: 0.5s;
+  background-color: #A69485;
+  cursor: pointer;
+}
+
+main {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label{
+  color: #D9CCC1;
+}
+
+th {
+  color: #D9CCC1;
+}
+
+#btn-container{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+
+}
+/* Color Theme Swatches in Hex */
+.Minimal-neutral-palette-1-hex { color: #F2D7B6; }
+.Minimal-neutral-palette-2-hex { color: #40352C; }
+.Minimal-neutral-palette-3-hex { color: #736355; }
+.Minimal-neutral-palette-4-hex { color: #A69485; }
+.Minimal-neutral-palette-5-hex { color: #D9CCC1; }
+
+/* Color Theme Swatches in RGBA */
+.Minimal-neutral-palette-1-rgba { color: rgba(242, 215, 182, 1); }
+.Minimal-neutral-palette-2-rgba { color: rgba(64, 53, 44, 1); }
+.Minimal-neutral-palette-3-rgba { color: rgba(115, 99, 85, 1); }
+.Minimal-neutral-palette-4-rgba { color: rgba(166, 148, 133, 1); }
+.Minimal-neutral-palette-5-rgba { color: rgba(217, 204, 193, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Minimal-neutral-palette-1-hsla { color: hsla(33, 69, 83, 1); }
+.Minimal-neutral-palette-2-hsla { color: hsla(27, 18, 21, 1); }
+.Minimal-neutral-palette-3-hsla { color: hsla(28, 15, 39, 1); }
+.Minimal-neutral-palette-4-hsla { color: hsla(27, 15, 58, 1); }
+.Minimal-neutral-palette-5-hsla { color: hsla(27, 24, 80, 1); }

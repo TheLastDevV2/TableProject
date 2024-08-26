@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Item</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    
+</body>
+    <div id="form-box">
+
+        <form action="/" >
+            <label for="object">object:</label><br>
+            <input type="text" id="object" name="object" ><br><br>
+           
+            <!-- <select name="object" id="">
+                <option value="tag"></option> 
+                <option value="Option A">test</option> 
+                <option value="Option B">test1</option> 
+                <option value="Option C">test2</option> 
+                <option value="Option C">test3</option> 
+            </select> <br> -->
+    
+             <!-- I can upgrade it to a js list in future -->
+            <label for="item">item:</label><br>
+            <input type="text" id="item" name="item" ><br><br>
+    
+            <label for="price">price:</label><br>
+            <input type="text" id="price" name="price" ><br><br>
+            
+            <div id="btn-container">
+            <!-- these are too important functions -->
+                <button onclick=createKey() type="submit">Send</button>
+                <button onclick=clearTable()>clear</button>
+            </div>
+          
+        </form>   
+        
+    </div>
+
+
+    <main>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Object</th>
+                    <th>Item</th>
+                    <th>price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Place where cells will be placed -->
+            </tbody>
+        </table>
+        
+      
+    </main>
+    
+    
+    <script src="./index.js"></script>
+    
+</html>
